@@ -1,5 +1,5 @@
 name: news_app
-description: "A new Flutter project."
+description: 'A new Flutter project.'
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,25 +34,25 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  
+
   # HTTP and API
   dio: ^5.4.0
   retrofit: ^4.1.0
-  
+
   # State Management
   flutter_bloc: ^8.1.0
   bloc: ^8.1.0
-  
+
   # Equatable
   equatable: ^2.0.5
-  
+
   # JSON serialization
   json_serializable: ^6.7.1
   json_annotation: ^4.9.0
-  
+
   # Environment variables
   flutter_dotenv: ^5.1.0
-  
+
   # GetIt for dependency injection
   get_it: ^7.6.0
 
@@ -66,7 +66,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
-  
+
   # Build runner for code generation
   build_runner: ^2.4.6
   retrofit_generator: ^8.1.0
@@ -76,7 +76,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
